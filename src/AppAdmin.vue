@@ -1,20 +1,14 @@
 <template>
   <div id="app">
-    <AppNavbar />
-    <router-view></router-view>
-    <AppFooter />
+
   </div>
 </template>
 
 <script>
-import AppNavbar from './components/AppNavbar.vue';
-import AppFooter from './components/AppFooter.vue';
-import { mapState } from 'vuex'; 
 export default {
   name: 'App',
   components: {
-    AppNavbar,
-    AppFooter
+
   },
   data() {
     return {
@@ -22,7 +16,7 @@ export default {
     };
   }, 
   computed: {
-    ...mapState(['isAuthenticated']),
+
   },
 
   methods: {

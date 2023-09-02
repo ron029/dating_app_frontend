@@ -1,0 +1,7 @@
+mutation CheckEmail($email: String!) {
+  emailExists(input: {
+    email: $email
+  }) {
+    user
+  }
+}

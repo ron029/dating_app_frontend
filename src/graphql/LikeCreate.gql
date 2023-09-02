@@ -1,0 +1,8 @@
+mutation CreateLike($likedUserId: ID!) {
+  createLike(input: { likedUserId: $likedUserId }) {
+    like {
+      match
+    }
+    errors
+  }
+}

@@ -1,0 +1,8 @@
+mutation SignInUser($credentials: AUTH_PROVIDER_CREDENTIALS!) {
+  login(input: { credentials: $credentials }) {
+    token
+    user {
+      id
+    }
+  }
+}

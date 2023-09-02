@@ -1,0 +1,11 @@
+query Get_swipes{
+  swipeWithGenderInterest {
+    id
+    firstName
+    lastName
+    bio
+    country
+    stateRegion
+    city
+  }
+}
