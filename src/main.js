@@ -1,4 +1,3 @@
-import "./firebase";
 import '@babel/polyfill';
 import './styles/custom-bootstrap.scss';
 import 'bootstrap';
