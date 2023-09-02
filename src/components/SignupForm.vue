@@ -463,7 +463,7 @@ export default {
                     }
                 },
             });
-            const token = response.data.login.token
+            const token = await response.data.login.token
             // assign the Authorization header with the token provided by the backend
             const headers = { Authorization: token };
             // tells vue that authentication is true and chance some components
